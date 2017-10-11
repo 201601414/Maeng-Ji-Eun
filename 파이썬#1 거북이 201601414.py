@@ -20,3 +20,4 @@
 >>> t.color("yellow")       # 펜 색을 노란색으로 지정
 >>> for x in range(80):     # x 값을 0에서 79까지 바꾸면서 80번 실행
 	t.forward(x)        # x만큼 앞으로 이동
+	t.left(angle)       # 거북이가 왼쪽으로 100도 회전
